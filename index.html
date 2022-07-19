@@ -490,7 +490,30 @@
     text-overflow: ellipsis;
     margin-right: auto;
   }
-  
+  .navWhitePage:hover {
+    color: hsla(210, 26%,  7%, 1);
+  }
+  .navWhite {
+    color: hsla(210, 26%,  7%, 0.7);
+    list-style-type: none;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+  }
+  .navWhitePage {
+    padding: 10px 16px;
+    text-decoration-line: none;
+    overflow: hidden;
+    max-width: 148px;
+    color: hsla(210, 26%,  7%, 0.7);
+    white-space: nowrap;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    text-overflow: ellipsis;
+    margin-right: auto;
+  }
   #menuToggle:checked ~ #menuButton {
     background-color: rgba(30,41,51,45);
     z-index: 2;
@@ -957,6 +980,7 @@
 <ul id="horizontalMenu" style="padding:0;margin:0;">
 <li class="navMenuLink"><a class="navMenuLinkContent" href="#home">Home</a></li>
 <li class="navStaking"><a class="navStakingPage" href="https://app.kungpao.finance">Staking</a></li
+<li class="navWhite"><a class="navWhitePage" href="https://docs.google.com/document/d/1SyyupqQXlqeV4CmIzM-XvLyspajrH_tD50e0h2bf9gg/edit?usp=sharing">Whitepaper</a></li
 </ul>
 </nav>
 <section id="home" style="z-index:0;overflow:hidden;display:grid;position:relative;align-items:center;">
